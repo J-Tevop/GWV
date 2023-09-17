@@ -16,6 +16,8 @@ const db = mysql.createConnection({
 	database: process.env.DB,
 })
 
+// TODO: Put everything into the service for a nice distribution and overview lmao
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
