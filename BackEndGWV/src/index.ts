@@ -17,6 +17,7 @@ const db = mysql.createConnection({
 })
 
 // TODO: Put everything into the service for a nice distribution and overview lmao
+// https://qat.com/simple-rest-service-node-js-express/
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
